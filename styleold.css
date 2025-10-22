@@ -1,0 +1,106 @@
+*{ /*reseteo  de css*/
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: black;/*color de fondo en cabecera*/
+    opacity: 1;    
+}
+
+header h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+header img{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0); /*color de fondo*/
+    font-family: "Raleway", sans-serif; /*estilo de fuente a todo lo que esta en body*/
+    
+}
+
+.boxes{
+    display: flex;
+    border: 1px solid #ffffff; /*borde del cuadro en el div*/
+    background-color: rgb(0, 0, 0); /*color dentro de la caja*/
+    color: #ffffff;
+    justify-content: center;/*justifica flex-end hacia el final. center centrado, etc*/ 
+}
+
+.box1{
+    display: flex;
+    border: 2px solid black; /*propiedades del borde del cajita color negro*/
+    width: 30%; /*ancho en porcentaje*/
+    margin: 0px; /*margin en medida de pixeles*/
+    padding: 30px; /*padding en medida de pixeles*/
+    justify-content: flex-end;
+}
+
+.box1 img{
+    display: flex;
+    border: 2px solid black; /*propiedades del borde del cajita color negro*/
+    width: 150%; /*ancho en porcentaje*/
+    margin: 0px; /*margin en medida de pixeles*/
+    padding: 0px; /*padding en medida de pixeles*/
+    color: #ffffff;
+    justify-content: center;
+}
+.box2{
+    display: flex;
+    border: 1px solid #ffffff; /*borde del cuadro en el div*/
+    flex-direction:column;
+    width: 150%; /*ancho en porcentaje*/
+    padding: 100px; /*padding en medida de pixeles*/
+    background-color: #1E1A13; /*color dentro de la caja*/
+    text-align: center;/*justifica el texto*/
+    color: #ffffff;
+    justify-content: center; /*justifica flex-end hacia el final. center centrado, etc*/
+}
+
+.box2 h2{
+     margin-bottom: 70px; /* Espacio debajo del título */
+}
+
+.box2 i{
+    font-size: 30px; 
+    color: #ffffff;
+    width: 30%;
+    height: 30%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.box3{
+    display: flex; /* el contenedor es flexible */
+    justify-content: space-around; /* Centra las imágenes horizontalmente espacio entremedio*/
+    gap: 1px; /* Espacio entre las imágenes (opcional) */
+}
+
+
+.box3 img{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px; /* Un tamaño fijo o relativo, no más del 100% del contenedor */
+    margin: 0;
+    padding: 0;
+}
+
+
+footer{
+    border: 2px solid #ffffff;
+}
+footer p{
+    height:50px;
+    color: #ffffff;
+    background-color: #1E1A13; /*color dentro de la caja*/
+    text-align: center;
+}
